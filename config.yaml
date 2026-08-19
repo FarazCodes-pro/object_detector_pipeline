@@ -1,0 +1,16 @@
+model:
+  path: "yolov8n.pt"
+  conf_threshold: 0.5
+  iou_threshold: 0.45
+
+preprocess:
+  gaussian_kernel: [5, 5]
+  gaussian_sigma: 0
+  adaptive_block_size: 11
+  adaptive_C: 2
+  morph_kernel: [5, 5]
+  min_contour_area: 500
+
+video:
+  source: "data/sample_video.mp4"
+  max_frames: 100

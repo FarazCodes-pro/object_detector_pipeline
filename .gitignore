@@ -1,0 +1,18 @@
+# Data and media files
+data/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Model weights (auto-downloaded)
+models/*.pt
+
+# Output files
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
